@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 conn=mysql.connector.connect(
     host="localhost",
     username="root",
-    password="srinivas",
+    password="Your password",
     database="business_cards"
 )
 mycursor=conn.cursor(buffered=True)
